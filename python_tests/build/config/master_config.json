@@ -1,0 +1,7 @@
+{
+    "browser": "chrome",
+    "environment": "uat",
+    "options": [],
+    "version": "latest",
+    "driver_exe_path": "manager"
+ }

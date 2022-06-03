@@ -1,0 +1,45 @@
+default: &default
+  adapter:  'mysql2'
+  host:     'ps-prod-db02.plansource.com'
+  database: 'benefits_production'
+  username: 'qa_automation'
+  password: '6Cl+4YGuoq/PssPfnde+YQ=='
+  strict: false
+  reconnect: true
+  automatic_close: false
+
+production:
+  <<: *default
+
+shard00:
+  <<: *default
+
+shard01:
+  adapter:  'mysql2'
+  host:     'ps-prod-db07.plansource.com'
+  database: 'benefits_production'
+  username: 'qa_automation'
+  password: '6Cl+4YGuoq/PssPfnde+YQ=='
+  strict: false
+  reconnect: true
+  automatic_close: false
+
+shard02:
+  adapter:  'mysql2'
+  host:     'ps-prod-db09.plansource.com'
+  database: 'benefits_production'
+  username: 'qa_automation'
+  password: '6Cl+4YGuoq/PssPfnde+YQ=='
+  strict: false
+  reconnect: true
+  automatic_close: false
+
+shard03:
+  adapter:  'mysql2'
+  host:     'ps-prod-db11.plansource.com'
+  database: 'benefits_production'
+  username: 'qa_automation'
+  password: '6Cl+4YGuoq/PssPfnde+YQ=='
+  strict: false
+  reconnect: true
+  automatic_close: false

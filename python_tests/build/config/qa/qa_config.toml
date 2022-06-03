@@ -1,0 +1,35 @@
+subscriber_username_ui2 = "subscriber_2"
+subscriber_password_ui2 = "subs12345"
+admin_workflow_base = "QA Automation - admin workflow base"
+
+[base_urls]
+benefits = "https://benefits.plansourcetest.com"
+broker = "https://benefits.plansourcetest.com/broker"
+admin = "https://benefits.plansourcetest.com/ops-admin"
+ulti_pro_login = "https://plansweb.ultiproservices.com/"
+ulti_pro_prod_demo_login = "https://et24.ultipro.com/Login.aspx"
+partner_dev = "https://partner-dev-benefits.plansource.com"
+bamboo_sandbox = "https://plansourcesandbox.bamboohr.com/"
+clearinghouse = "https://834clearinghouse.plansourcetest.com/"
+plansweb = "https://plansweb.ultiproservices.com/"
+keycloak = "https://sso.plansourcetest.com"
+analytics = "https://analytics.plansourcetest.com"
+api = "https://api.plansourcetest.com"
+FAP_generate_credentials = "https://apisvc.glic.com/api/v1/cc/oauth2/token/generate"
+FAP_guardian_search_results = "https://apisvc.glic.com/FAPAPI-Ext-v1/api/ppoprovider/SearchResult"
+HCM_dashboard = "https://hcmdashboard.plansourcetest.com/#/"
+
+[keys]
+twilio = "70882783156b8198738f43be541fb806"
+egnyte = "h9mga3rvw8766c3fm6y2wvx9"
+egnyte_pass = "FghjVbnm34#$"
+
+[sftp]
+server = "sftp.plansourcetest.com"
+user = "qa_automation"
+password = "em/Byv89"
+
+[login]
+default_password = "automation1"
+admin_username = "qa_automation"
+admin_password = "automation1"

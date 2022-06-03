@@ -1,0 +1,40 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pytest = "*"
+selenium = "*"
+attrs = "*"
+ignore = "*"
+importlib-metadata = "*"
+behave = "*"
+pyYaml = "*"
+mysql-connector = "*"
+mysql = "*"
+numpy = "*"
+webdriver-manager = "*"
+pytz = "*"
+pandas = "*"
+faker = "*"
+mysqlclient = "*"
+basicauth = "*"
+pytest-xdist = "*"
+pydantic = "*"
+pytest-reportportal = "*"
+pysftp = "*"
+bs4 = "*"
+typing-extensions = "*"
+pymupdf = "*"
+twilio = "*"
+pytest-timeout = "*"
+beautifulsoup4 = "*"
+lxml = "*"
+toml = "*"
+dataclasses = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"

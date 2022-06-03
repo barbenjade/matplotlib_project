@@ -1,0 +1,40 @@
+subscriber_username_ui2 = "subscriber_2"
+subscriber_password_ui2 = "subs12345"
+admin_workflow_base = "QA Automation - admin workflow base"
+
+[base_urls]
+benefits = "https://benefits.plansource.com"
+broker = "https://benefits.plansource.com/broker"
+admin = "https://benefits.plansource.com/ops-admin"
+ulti_pro_login = "https://plansource.ultipro.com/"
+ulti_pro_prod_demo_login = "https://et24.ultipro.com/Login.aspx"
+bamboo_sandbox = "https://plansourcesandbox.bamboohr.com/"
+clearinghouse = "https://834clearinghouse.plansource.com/"
+plansweb = "https://plansweb.ultiproservices.com/"
+keycloak = "https://sso.plansourcetest.com"
+analytics = "https://analytics.plansource.com"
+analytics_onprem = "https://analyticsonprem.plansource.com"
+api = "https://api.plansource.com"
+pcms = "https://pcms.plansource.com/login"
+FAP_generate_credentials = "https://apisvc.qa.glic.com/api/v1/cc/oauth2/token/generate"
+FAP_guardian_search_results = "https://apisvc.qa.glic.com/FAPAPI-Ext-v1/api/ppoprovider/SearchResult"
+HCM_dashboard = "http://hcmdashboard.plansource.com/#/"
+
+[keys]
+twilio = "62b7f77ba36cac95c607a95ec9edcb22"
+egnyte = "h9mga3rvw8766c3fm6y2wvx9"
+egnyte_pass = "FghjVbnm34#$"
+
+[api_environment_files]
+ultimate = "api/prod/ulti_pro/PROD_ultimate.postman_environment.json"
+
+[sftp]
+server = "sftp.plansource.com"
+user = "qa_automation_prod"
+password = "1jlSBK7j"
+
+[login]
+default_password = "automation1"
+admin_username = "qa_automation"
+admin_password = "automation1"
+sysadmin_username = "qa_automationsa"
